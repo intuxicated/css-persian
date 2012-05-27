@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Elham;
+    src: url('../fonts/elham.ttf');
+}
+@font-face{
+    src: url('../fonts/homa.ttf');
+    font-family: Homa;
+}
+@font-face{
+    src: url('../fonts/koodak.ttf');
+    font-family: Koodak;
+}
+@font-face{
+    src: url('../fonts/nazli.ttf');
+    font-family: Nazli;
+}
+@font-face{
+    src: url('../fonts/roya.ttf');
+    font-family: Roya;
+}
+@font-face{
+    src: url('../fonts/terafik.ttf');
+    font-family: Terafik;
+}
+@font-face{
+    src: url('../fonts/titr.ttf');
+    font-family: Titr;
+}
+@font-face{
+    src: url('../fonts/nazlib.ttf');
+    font-family: NazliB;
+}
+@font-face{
+    src: url('../fonts/royab.ttf');
+    font-family: RoyaB;
+}
+@font-face{
+    src: url('../fonts/terafikb.ttf');
+    font-family: TerafikB;
+}
+
