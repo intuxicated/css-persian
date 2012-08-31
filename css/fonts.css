@@ -1,10 +1,17 @@
-@font-face{ src: url('../fonts/elham.ttf');    font-family: Elham; }
-@font-face{ src: url('../fonts/homa.ttf');     font-family: Homa; }
-@font-face{ src: url('../fonts/koodak.ttf');   font-family: Koodak; }
-@font-face{ src: url('../fonts/nazli.ttf');    font-family: Nazli; }
-@font-face{ src: url('../fonts/nazlib.ttf');   font-family: Nazli; font-weight: bold; }
-@font-face{ src: url('../fonts/roya.ttf');     font-family: Roya; }
-@font-face{ src: url('../fonts/royab.ttf');    font-family: Roya; font-weight: bold; }
-@font-face{ src: url('../fonts/terafik.ttf');  font-family: Terafik; }
-@font-face{ src: url('../fonts/terafikb.ttf'); font-family: Terafik; font-weight: bold; }
-@font-face{ src: url('../fonts/titr.ttf');     font-family: Titr; }
+@font-face{ src: url('../fonts/elham.ttf');    font-family: "Elham";   }
+@font-face{ src: url('../fonts/homa.ttf');     font-family: "Homa";    }
+@font-face{ src: url('../fonts/koodak.ttf');   font-family: "Koodak";  }
+@font-face{ src: url('../fonts/nazli.ttf');    font-family: "Nazli";   }
+@font-face{ src: url('../fonts/nazlib.ttf');   font-family: "Nazli";   font-weight: bold; }
+@font-face{ src: url('../fonts/roya.ttf');     font-family: "Roya";    }
+@font-face{ src: url('../fonts/royab.ttf');    font-family: "Roya";    font-weight: bold; }
+@font-face{ src: url('../fonts/terafik.ttf');  font-family: "Terafik"; }
+@font-face{ src: url('../fonts/terafikb.ttf'); font-family: "Terafik"; font-weight: bold; }
+@font-face{ src: url('../fonts/titr.ttf');     font-family: "Titr";    }
+/*** FPF‌ http://fpf.sourceforge.net/per/index.html ***/
+@font-face{ src: url('../fonts/freefarsi.ttf');      font-family: "Freefarsi"; }
+@font-face{ src: url('../fonts/freefarsib.ttf');     font-family: "Freefarsi"; font-weight: bold; }
+@font-face{ src: url('../fonts/freefarsibi.ttf');    font-family: "Freefarsi"; font-weight: bold; font-style:italic; }
+@font-face{ src: url('../fonts/freefarsi-mono.ttf'); font-family: "FreefarsiMono"; }
+/*** farsitel http://farsitel.com/fa/ ***/
+@font-face{ src: url('../fonts/irsans.ttf');   font-family: "IranianSans";   }
