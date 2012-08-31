@@ -7,7 +7,7 @@ Copy whole this project file into your `web root`
 
 Include [fonts.css](https://github.com/intuxicated/css-persian/blob/master/css/fonts.css "fonts.css") between `<head>` and `</head>` tag.
 
-	<link rel="stylesheet" href="css/font.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
 and in your css file
 
 	body{ font-family: FONT-NAME; }
