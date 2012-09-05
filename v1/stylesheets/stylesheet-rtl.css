@@ -62,9 +62,12 @@ header h2 {
     letter-spacing: 0;
     font-family: "Roya",'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
-.clicked{
-	font-weight: bold;
-	text-decoration:underline;
+.inner {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    text-align:right;
+    direction: rtl;
 }
 
 
@@ -220,13 +223,6 @@ header h2 {
 
 }
 
-.inner {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    text-align:right;
-    direction: rtl;
-}
 #content-wrapper {
     border-top: solid 1px #fff;
     padding-top: 30px;
