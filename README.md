@@ -57,7 +57,7 @@ Browser Capability
 	Opera    >= 11
 	Chromium >= 13
 
-`No guarantee for internet explorer , but might work on IE7 and higher`
+`No guarantee for internet explorer , but might work on IE6 and higher`
 	
 	
 	
