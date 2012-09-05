@@ -24,6 +24,37 @@
     		$('#fontview').css('fontFamily',$(this).text());
     		return false;
     	});
+    	
+    	$('.font-control a').click(function(){
+    		$(this).toggleClass('controled');
+    		return false;
+    	});
+    	
+    	$('.getbold').click(function(){
+    		$('#fontview').toggleClass('bolded');
+    		return false;
+    	});
+    	$('.getitalic').click(function(){
+    		$('#fontview').toggleClass('italiced');
+    		return false;
+    	});
+    	$('.getunder').click(function(){
+    		$('#fontview').toggleClass('undered');
+    		return false;
+    	});
+    	
+    	$('.getincrease').click(function(){
+    		fontSize = parseInt($('#fontview').css('fontSize'));
+    		fontSize++;
+    		$('#fontview').css('fontSize',fontSize);
+    		return false;
+    	});
+    	$('.getdecrease').click(function(){
+    		fontSize = parseInt($('#fontview').css('fontSize'));
+    		fontSize--;
+    		$('#fontview').css('fontSize',fontSize);
+    		return false;
+    	});
     });
     		
     	
@@ -66,7 +97,29 @@
 <p> و در پایان تعویض کنید <code>FONT-NAME</code> با فونت های دلخواه مانند  <code>BBadr</code>,<code>IranianSans</code> یا غیره.  </p>
 
 <h2>فونت هایی که هم اکنون قابل استفاده هستند </h2>
-<p style="font-family: inherit; height: 230px;" id="fontview">لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.
+<p style="margin-bottom:5px;">
+          	<span id="github-btn" class="github-btn github-me font-control">
+		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getbold">
+		    <span id="gh-text" class="gh-text">‌B</span>
+		  </a>
+		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getitalic">
+		    <span id="gh-text" class="gh-text">‌I</span>
+		  </a>
+		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getunder">
+		    <span id="gh-text" class="gh-text">U</span>
+		  </a>
+		</span>
+		<span id="github-btn" class="github-btn github-me github-me-right">
+		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getincrease">
+		    <span id="gh-text" class="gh-text">+</span>
+		  </a>
+		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getdecrease">
+		    <span id="gh-text" class="gh-text">‌-</span>
+		  </a>
+		</span>
+          </p>
+          <br /><br />
+<p style="font-family: inherit;" id="fontview">لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.
 <br/>
 ۰۱۲۳۴۵۶۷۸۹۰
 <br/>
