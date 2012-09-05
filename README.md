@@ -21,7 +21,7 @@ and in your css file
 
 	body{ font-family: "FONT-NAME"; }
 	
-replace `FONT-NAME` with available fonts like `Elham`,`Homa` or etc.  
+replace `FONT-NAME` with available fonts like `BBadr`,`IranianSans` or etc. 
 
 Available Fonts (40 Fonts)
 ------------------
@@ -53,9 +53,9 @@ Available Fonts (40 Fonts)
 Browser Capability 
 ------------------
 
-Firefox  >= 3.6
-Opera    >= 11
-Chromium >= 13
+	Firefox  >= 3.6
+	Opera    >= 11
+	Chromium >= 13
 
 `No guarantee for internet explorer , but might work on IE7 and higher`
 	
