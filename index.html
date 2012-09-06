@@ -9,19 +9,23 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="http://harvesthq.github.com/chosen/chosen/chosen.css" />
+    
     <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="javascripts/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="http://harvesthq.github.com/chosen/chosen/chosen.jquery.js"></script>
+    
     <script type="text/javascript">
     $(document).ready(function() {
     	
     	$('#fonts a').click(function() {
     		$(this).addClass('clicked').siblings().removeClass('clicked');
     		$('#fontview').show();
-    		$('#fontview').css('fontFamily',$(this).text());
+    		$('#fontview').css('fontFamily',$(this).text());    		
     		return false;
     	});
     	
@@ -54,6 +58,15 @@
     		fontSize--;
     		$('#fontview').css('fontSize',fontSize);
     		return false;
+    	});
+    	
+	
+    	$('#fontselect').chosen({allow_single_deselect:true});
+    	
+    	$('#fontselect').change(function(){
+    		$('#fontview').css('fontFamily',$(this).val());
+    		$('#fonts a').removeClass('clicked');
+    		
     	});
     });
     		
@@ -97,7 +110,7 @@
 <p> و در پایان تعویض کنید <code>FONT-NAME</code> با فونت های دلخواه مانند  <code>BBadr</code>,<code>IranianSans</code> یا غیره.  </p>
 
 <h2>فونت هایی که هم اکنون قابل استفاده هستند </h2>
-<p style="margin-bottom:5px;">
+<p style="margin-bottom:5px; text-align:center">
           	<span id="github-btn" class="github-btn github-me font-control">
 		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getbold">
 		    <span id="gh-text" class="gh-text">‌B</span>
@@ -109,6 +122,20 @@
 		    <span id="gh-text" class="gh-text">U</span>
 		  </a>
 		</span>
+		<select style="width:300px;" id="fontselect">	
+			<option></option>
+			<option>BBadr</option> 		<option>BBaran</option> 		<option>BBardiya</option> 		<option>BCompset</option>
+			<option>BDavat</option>		<option>BMorvarid</option>		<option>BTitrBold</option>		<option>BLotus</option>
+			<option>BElham</option>		<option>BNarm</option>			<option>BTitrTGEBold</option>		<option>BYekan</option>
+			<option>BEsfehanBold</option>	<option>BNasimBold</option>		<option>BTraffic</option>		<option>BKourosh</option>
+			<option>BFarnaz</option>	<option>BNazanin</option>		<option>BMitra</option>			<option>BYas</option>
+			<option>BFerdosi</option>	<option>BRoya</option>			<option>BFantezy</option>		<option>BKoodakBold</option>
+			<option>BHamid</option>		<option>BSetarehBold</option>		<option>BMehrBold</option>		<option>BYagut</option>
+			<option>BHelal</option>		<option>BShiraz</option>		<option>BZiba</option>			<option>BVahidBold</option>
+			<option>BHoma</option>		<option>BSinaBold</option>		<option>BMahsa</option>			<option>IranianSans</option>
+			<option>BJadidBold</option>	<option>BTabassom</option>		<option>BZar</option>			
+			<option>BJalal</option>		<option>BTehran</option>
+		</select>
 		<span id="github-btn" class="github-btn github-me github-me-right">
 		  <a id="gh-btn" href="#" class="gh-btn gh-btn-in getincrease">
 		    <span id="gh-text" class="gh-text">+</span>
