@@ -50,7 +50,7 @@ Available Fonts (41 Fonts)
 	IranianSans
 
 	
-Browser Capability 
+Browser Compatibility 
 ------------------
 
 	Firefox  >= 3.6
