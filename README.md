@@ -1,3 +1,7 @@
+Depricated
+==========
+Please use [Fontup.ir](https://github.com/FontUp/fontup-rails).
+
 Persian CSS Fonts
 ==================
 
